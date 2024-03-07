@@ -10,6 +10,17 @@
             text-decoration: none;
             color: black;
         }
+        /* 리스트 항목과 링크에 대한 스타일 */
+        ul {
+            font-size: 24px; /* 리스트의 글꼴 크기 조정 */
+        }
+        ul li {
+            margin-bottom: 20px; /* 리스트 항목 사이에 20픽셀의 마진 추가 */
+            list-style-type: none; /* 리스트 항목 앞의 기본 마커(점) 제거 */
+        }
+        ul li a {
+            cursor: pointer; /* 링크에 마우스를 올렸을 때 손가락 모양 커서로 변경 */
+        }
         .description {
             font-size: 0.8em; /* 제목보다 작은 크기로 설정 */
             color: grey; /* 설명 텍스트 색상 */
@@ -20,15 +31,13 @@
     <h1>키오스크 연습하기</h1>
     <p class="description">이 자료는 키오스크 교육용 자료입니다. 허락없이 사용하시거나 하면 안되요~</p>
     <ul>
-        <font size="15">
-        <li><a href="da_home.html" target="_blank">다이소</a></li>
-        <li><a href="em_home.html" target="_blank">이마트</a></li>
-        <li><a href="https://www.lotteria.com/" target="_blank">롯데리아</a></li>
-        <li><a href="http://www.cgv.co.kr/" target="_blank">CGV</a></li>
-        <li><a href="http://www.lottecinema.co.kr/" target="_blank">롯데시네마</a></li>
-        <li><a href="https://www.asan.go.kr/" target="_blank">아산시청</a></li>
-        <li><a href="https://www.kobus.co.kr/" target="_blank">버스예매</a></li>
-        </font>
+        <li><a href="da_home.html" target="_blank">● 다이소</a></li>
+        <li><a href="em_home.html" target="_blank">● 이마트</a></li>
+        <li><a href="https://www.lotteria.com/" target="_blank">○ 롯데리아</a></li>
+        <li><a href="http://www.cgv.co.kr/" target="_blank">○ CGV</a></li>
+        <li><a href="http://www.lottecinema.co.kr/" target="_blank">○ 롯데시네마</a></li>
+        <li><a href="https://www.asan.go.kr/" target="_blank">○ 아산시청</a></li>
+        <li><a href="https://www.kobus.co.kr/" target="_blank">○ 버스예매</a></li>
     </ul>
 </body>
 </html>
