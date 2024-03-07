@@ -10,14 +10,22 @@
         body {
             background-color: rgb(254, 180, 21);
         }
+        img {
+            max-width: 100%; /* 이미지 최대 너비를 부모 요소의 100%로 설정 */
+            height: auto; /* 이미지 높이를 자동으로 설정하여 비율을 유지 */
+        }
+        /* 센터 태그 사용 대신 CSS로 가운데 정렬을 권장 */
+        .center {
+            text-align: center;
+        }
     </style>
 </head>
 <body>
-<center>
+<div class="center">
     <img src="em_home.PNG" width="960" height="720" alt="결제 선택하기" usemap="#backMap">
     <map name="backMap">
       <area shape="rect" coords="178,300,466,388" href="em2.html" alt="스캔 시작하기 버튼" target="_self">
     </map>
-</center>
+</div>
 </body>
 </html>
