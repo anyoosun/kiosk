@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>무인안내기_CGV 편</title>
+    <style>
+        body {
+            margin: 0; /* 기본 마진 제거 */
+            padding: 0; /* 기본 패딩 제거 */
+            display: flex; /* Flexbox 레이아웃 사용 */
+            justify-content: center; /* 가로 방향에서 중앙 정렬 */
+            align-items: center; /* 세로 방향에서 중앙 정렬 */
+            height: 100vh; /* 뷰포트의 전체 높이 */
+        }
+        .center {
+            text-align: center; /* 텍스트(이미지 포함)를 중앙에 정렬 */
+        }
+        img {
+            display: inline-block; /* 이미지를 인라인 블록 요소로 처리 */
+        }
+    </style>
+</head>
+<body>
+<div class="center">
+    <img src="asan_09.PNG" width="960" height="720" alt="원하시는 것을 선택하세요." usemap="#backMap">
+    <map name="backMap">
+      <area shape="rect" coords="69,105,909,667" href="asan_10.html" alt="다음 페이지로 이동" target="_self">
+    </map>
+</div>
+</body>
+</html>
